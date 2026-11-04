@@ -1,4 +1,27 @@
 # EXPERIMENT 4: AI FOR MEDICAL PROGNOSIS
+# if seaborn not installed then install the seaborn as python -m pip install seaborn
+# 1. Software Tools Used
+
+#1. Python 3: Programming language used to implement the experiment.
+#2. Google Colab: Platform used to write and execute Python code.
+#3. NumPy: Used for numerical calculations.
+#4. Pandas: Used to create and manage the patient dataset.
+#5. Matplotlib: Used to plot ROC curves and feature importance graphs.
+#6. Seaborn: Used for data visualization.
+#7. Scikit-learn: Used for data preprocessing, Random Forest classification and model evaluation.
+
+#2. Theory (Short)
+
+#Medical prognosis is the process of predicting the future outcome or progress of a disease. It helps doctors understand the chances of patient recovery or mortality. Unlike diagnosis, which identifies a disease, prognosis predicts the possible outcome of a disease.
+
+#In this experiment, a sample ICU patient dataset is created using clinical features such as age, blood pressure, heart rate, oxygen level and comorbidity score.
+
+#The data is standardized and divided into training and testing sets. A Random Forest algorithm is used to predict patient outcomes (Survived or Died).
+
+#The model is evaluated using a classification report, confusion matrix and ROC-AUC score. Feature importance is also used to identify the most influential clinical factors.
+
+#3. Conclusion
+#Thus, AI for Medical Prognosis was successfully implemented using the Random Forest algorithm. Patient outcomes were predicted based on clinical features, and model performance was evaluated using ROC-AUC, classification report and confusion matrix. Oxygen level was identified as the most important feature influencing patient prognosis.
 
 # STEP 1: Import general libraries
 import numpy as np
